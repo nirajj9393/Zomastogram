@@ -1,0 +1,84 @@
+/* Center the form */
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form box */
+.user-reg-form {
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading */
+.user-reg-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Labels & Inputs */
+.user-reg-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+  font-size: 14px;
+}
+
+.user-reg-form input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+.user-reg-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Button */
+.user-reg-form button {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-reg-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Login text below button */
+.login-text {
+  text-align: center;
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.login-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
